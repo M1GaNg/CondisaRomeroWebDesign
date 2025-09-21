@@ -1,0 +1,74 @@
+/* Estilos personalizados para el blog */
+
+.nav-blog {
+    background: linear-gradient(90deg, #1e293b 60%, #3b82f6 100%);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+
+
+.blog-title {
+    font-size: 3rem;
+    color: #2563eb;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+    letter-spacing: 2px;
+}
+
+.blog-subtitle {
+    font-size: 1.5rem;
+    color: #334155;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.blog-desc {
+    font-size: 1.1rem;
+    color: #475569;
+    margin-bottom: 1.5rem;
+}
+
+.blog-btn {
+    background: #2563eb;
+    color: #fff;
+    border-radius: 8px;
+    padding: 0.75rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(59,130,246,0.15);
+    transition: background 0.2s;
+}
+.blog-btn:hover {
+    background: #1e293b;
+}
+
+.blog .conocenos, .blog .masInfo {
+    background: #f1f5f9;
+    border-radius: 12px;
+    margin: 2rem 0;
+    padding: 2rem;
+    box-shadow: 0 2px 12px rgba(59,130,246,0.07);
+}
+
+.blog .conocenos h1, .blog .masInfo h1 {
+    color: #2563eb;
+    font-weight: 700;
+}
+
+.blog .conocenos ul {
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+}
+
+.blog .conocenos ul li {
+    color: #334155;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.blog .b img {
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(59,130,246,0.10);
+    margin-bottom: 1rem;
+    max-width: 100%;
+}
